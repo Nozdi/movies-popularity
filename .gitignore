@@ -56,7 +56,10 @@ target/
 # csv
 process/relevant.csv
 process/repaired.csv
+tweets.csv
 
 # MAC
 .DS_Store
 
+# file with twitter keys
+settings.py
