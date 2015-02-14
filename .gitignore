@@ -52,3 +52,11 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# csv
+process/relevant.csv
+process/repaired.csv
+
+# MAC
+.DS_Store
+
