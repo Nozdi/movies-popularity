@@ -17,7 +17,7 @@ def process(original_filename, new_filename):
         for row in reader:
             try:
                 if FROM <= datetime.strptime(row[0], "%B %d %Y") < TO:
-                    row[1] = re.sub(r"\(\w+\)", '', row[1])  # removing parenthesis
+                    row[1] = re.sub(r"\(\w+\)", '', row[1]).strip()  # removing parenthesis
                     writer.writerow(row[:-1])  # removing trailer
             except ValueError:
                 continue

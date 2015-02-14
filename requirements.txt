@@ -1,2 +1,7 @@
 tweepy
 unidecode
+TextBlob
+pygeocoder
+celery
+numpy
+prettytable

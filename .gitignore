@@ -57,6 +57,7 @@ target/
 process/relevant.csv
 process/repaired.csv
 tweets.csv
+counted.csv
 
 # MAC
 .DS_Store
