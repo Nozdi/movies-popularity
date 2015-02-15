@@ -5,3 +5,4 @@ pygeocoder
 celery
 numpy
 prettytable
+matplotlib

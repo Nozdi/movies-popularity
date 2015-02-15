@@ -56,8 +56,10 @@ target/
 # csv
 process/relevant.csv
 process/repaired.csv
-tweets.csv
-counted.csv
+*.csv
+
+# images
+*.jpg
 
 # MAC
 .DS_Store
